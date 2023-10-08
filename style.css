@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  color: teal;
+  font-family: "Permanent Marker", cursive;
+}
+.gameContaner{
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    outline: 2px solid teal;
+    margin: 10px auto;
+}
+.cell{
+    width: 60px;
+    height: 60px;
+    border: 2px solid teal;
+}
